@@ -1,0 +1,18 @@
+.aboutdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.myinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detailicons{
+    display: flex;
+    flex-direction: column;
+}
