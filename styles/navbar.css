@@ -10,12 +10,15 @@
   flex-direction: column;
 
   list-style-type: none;
-  background: rgb(192, 214, 255);
+  background: #15b9f4;
+  border-radius: 20px;
   position: fixed;
-  top: -100%;
-  right: -100%;
-  width: 15vw;
-  height: 30vh;
+  top: 25px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -25,9 +28,8 @@
 }
 
 .navbar-links.active {
-  top: 25px;
-  right: 25px;
-  transition: all 0.3s linear ;
+  width: 15vw;
+  height: 30vh;
 }
 
 .navbar-button {
@@ -36,8 +38,39 @@
   right: 25px;
   z-index: 100;
   font-size: 30px;
-  background: none;
+  background: #000000;
+  color: #15b9f4;
   border: none;
+  border-radius: 5px;
   outline: none;
-  padding: 20px;
+  /* padding: 20px; */
+  width: 40px;
+  height: 40px;
+  transition: 0.6s;
+}
+
+.navbar-button:hover {
+  background-color: #15b9f4;
+  color: #000000;
+  border-color: #15b9f4;
+  transition: 0.6s;
+}
+
+.navbar-link {
+}
+
+.navbar-anchor {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.navbar-anchor:hover {
+  color: #15b9f4;
+  background-color: #000000;
+  transition: 0.6s;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 30px;
 }
