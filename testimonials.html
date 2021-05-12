@@ -12,6 +12,18 @@
       src="https://kit.fontawesome.com/ab6051d3ab.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <nav class="navbar">
@@ -46,93 +58,77 @@
         <i class="fas fa-bars"></i>
       </button>
     </nav>
-    <div class="section">
-      <div id="testimonials">
-        <h2>My <span class="headcolor">Testimonials</span></h2>
-        <div class="owl-carousel">
-          <div class="container">
-            <div class="">
-              <h2 class="">Uthmaan Breda</h2>
-              <h3 class="">-CEO-</h3>
-              <p class="">
-                "A cool dude. He knows his priorities, is hard working and
-                driven."
-              </p>
-            </div>
+    <div class="head"><h1>Testimonials of Abdul-Malik Mohamed</h1></div></section>
+    <div class="owl-carousel">
+      <div class="container">
+        <div class="text">
+          <h2 class="name">Uthmaan Breda</h2>
+          <h3 class="title">-CEO-</h3>
+          <p class="message">
+            "A cool dude. He knows his priorities, is hard working and driven."
+          </p>
+        </div>
 
-            <div class="">
-              <img src="" alt="Picture of Uthmaan" />
-            </div>
-          </div>
+        <div class="pics">
+          <img
+            src="./images/Uthmaan Breda.JPG"
+            alt="Picture of Uthmaan"
+          />
+        </div>
+      </div>
 
-          <div class="container">
-            <div class="">
-              <h2 class="">Masimthembe Ndaloenie</h2>
-              <h3 class="">-Full Stack Developer-</h3>
-              <p class="">
-                "Purpose driven person who knows what he wants and fully strives
-                for excellence."
-              </p>
-            </div>
+      <div class="container">
+        <div class="text">
+          <h2 class="name">Masimthembe Ndaloenie</h2>
+          <h3 class="title">-Full Stack Developer-</h3>
+          <p class="message">
+            "Purpose driven person who knows what he wants and fully strives for
+            excellence."
+          </p>
+        </div>
 
-            <div class="">
-              <img src="" alt="" />
-            </div>
-          </div>
+        <div class="pics">
+          <img src="./images/Masithembe Ndabeni.JPG" alt="Picture of Masi" />
+        </div>
+      </div>
 
-          <div class="container">
-            <div class="">
-              <h2 class="">Justin Calvert</h2>
-              <h3 class="">-Full Stack Developer-</h3>
-              <p class="">
-                "A cool dude. He knows his priorities, is hard working and
-                driven."
-              </p>
-            </div>
+      <div class="container">
+        <div class="text">
+          <h2 class="name">Justin Calvert</h2>
+          <h3 class="title">-Full Stack Developer-</h3>
+          <p class="message">
+            "A cool dude. He knows his priorities, is hard working and driven."
+          </p>
+        </div>
 
-            <div class="">
-              <img src="" alt="Picture of Justin" />
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="">
-              <h2 class="">Jason Wandrag</h2>
-              <h3 class="">-Front End Developer and Lecturer-</h3>
-              <p class="">""</p>
-            </div>
-
-            <div class="">
-              <img src="" alt="Picture of Jason" />
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="">
-              <h2 class="">Candice</h2>
-              <h3 class="">-Lecturer-</h3>
-              <p class="">""</p>
-            </div>
-
-            <div class="">
-              <img src="" alt="Picture of Candice" />
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="">
-              <h2 class="">Thapelo</h2>
-              <h3 class="">Back End Developer and Lecturer-</h3>
-              <p class="">""</p>
-            </div>
-
-            <div class="">
-              <img src="" alt="Picture of Thapelo" />
-            </div>
-          </div>
+        <div class="pics">
+          <img src="./images/Justin Calvert.JPG" alt="Picture of Justin" />
         </div>
       </div>
     </div>
+
     <script src="scripts.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
   </body>
 </html>
