@@ -30,6 +30,7 @@
 .navbar-links.active {
   width: 15vw;
   height: 30vh;
+  z-index: 100;
 }
 
 .navbar-button {
