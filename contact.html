@@ -49,65 +49,84 @@
 
     <div class="section">
       <div id="contact">
-        <h2>Let's <span class="headcolor">Talk</span></h2>
+        <h1>Let's <span class="headcolor">Talk</span></h1>
         <div class="contactdetails">
-          <p><i class="fas fa-phone-alt"></i> 076 497 1338</p>
-          <p><i class="far fa-envelope"></i> abdulmalikmohamed360@gmail.com</p>
-          <p><i class="fas fa-map-marker-alt"></i> Cape Town, South Africa</p>
+          <div class="cntctme">
+            <p class="contacticons">
+              <i class="fas fa-phone-alt cnticn"></i> 076 497 1338
+            </p>
+            <p class="contacticons">
+              <i class="fas fa-envelope cnticn"></i>
+              abdulmalikmohamed360@gmail.com
+            </p>
+            <p class="contacticons">
+              <i class="fas fa-map-marker-alt cnticn"></i> Cape Town, South
+              Africa
+            </p>
+          </div>
 
-          <form id="contact-form" action="" method="POST">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/mjvjywbw"
+            method="POST"
+            target="_blank"
+          >
             <h3>Send Me An Email</h3>
             <p>
               Feel free to get in touch with me. I am always open to discussing
               new projects or creative ideas.
             </p>
 
-            <div class="form-group">
-              <label class="form-labels" for="name">Your Name</label>
-              <input
-                class="form-input"
-                type="text"
-                name="name"
-                id="name"
-                required
-                placeholder="Full Name"
-              />
-            </div>
+            <div class="formstyle">
+              <div class="yourinfo">
+                <div class="form-group">
+                  <label class="form-labels" for="name">Your Name</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    placeholder="Full Name"
+                  />
+                </div>
 
-            <div class="form-group">
-              <label class="form-labels" for="email">Your Email</label>
-              <input
-                class="form-input"
-                type="email"
-                name="email"
-                id="email"
-                required
-                placeholder="example@gmail.com"
-              />
-            </div>
+                <div class="form-group">
+                  <label class="form-labels" for="email">Your Email</label>
+                  <input
+                    class="form-input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="example@gmail.com"
+                  />
+                </div>
 
-            <div class="form-group">
-              <label class="form-labels" for="contact">Your Number</label>
-              <input
-                class="form-input"
-                type="tel"
-                name="contact"
-                id="contact"
-                required
-                placeholder="072 123 4567"
-              />
-            </div>
+                <div class="form-group">
+                  <label class="form-labels" for="contact">Your Number</label>
+                  <input
+                    class="form-input"
+                    type="tel"
+                    name="contact"
+                    id="contact"
+                    required
+                    placeholder="072 123 4567"
+                  />
+                </div>
+              </div>
 
-            <div class="form-group">
-              <label class="form-labels" for="message">Your Message</label>
-              <input
-                class="form-input"
-                type="text"
-                name="message"
-                id="message"
-                required
-                placeholder="Type your message here"
-              />
+              <div class="form-group">
+                <label class="form-labels" for="message">Your Message</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="message"
+                  id="message"
+                  required
+                  placeholder="Type your message here"
+                />
+              </div>
             </div>
             <button class="button" type="submit">Send</button>
           </form>
