@@ -24,6 +24,9 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-left: 20%;
 }
 
 .mypic {
@@ -46,7 +49,8 @@ h2 {
 .bio {
   color: #000000;
   font-size: 20px;
-  padding: 20px 20px;
+  padding: 20px;
+  width: 80%;
 }
 .mydetailsicons {
   display: flex;
@@ -58,13 +62,21 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+.di1 {
+  margin-left: 10%;
+}
 .mydetails {
   color: #000000;
   padding: 5px 10px;
   margin: 2%;
+  font-size: 20px;
+}
+.inputdetails {
+  font-size: 15px;
 }
 .abouticons {
   color: #15b9f4;
+  font-size: 20px;
 }
 
 .btn {
@@ -76,15 +88,20 @@ h2 {
   height: 5vh;
   width: 10vw;
   transition: 0.6s;
+  font-size: 15px;
 }
 .btn:hover {
   background-color: #15b9f4;
   color: #000000;
-  border-color: #15b9f4;
+  border-color: #000000;
   transition: 0.6s;
+  font-size: 22px;
+  width: 13vw;
 }
 
 h3 {
+  display: flex;
+  justify-content: center;
   font-size: 50px;
   color: #000000;
   padding-left: 5%;
@@ -135,6 +152,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
   font-size: 25px;
+  position: sticky;
 }
 
 .line {
@@ -201,6 +219,31 @@ h6 {
   justify-content: center;
   align-items: center;
   font-size: 100px;
+  transition: 0.6s;
+  color: #15b9f4;
+  text-decoration: none;
+}
+
+.fa-html5:hover {
+  color: #e34c26;
+  transition: 0.6s;
+}
+.fa-css3-alt:hover {
+  color: #2965f1;
+  transition: 0.6s;
+}
+.fa-python:hover {
+  color: #4b8bbe;
+  background-color: #ffe873;
+  border-radius: 20px;
+  transition: 0.6s;
+}
+.fa-instagram:hover {
+  color: #bc2a8d;
+  transition: 0.6s;
+}
+.iconword {
+  color: #000000;
 }
 
 .item1 {
