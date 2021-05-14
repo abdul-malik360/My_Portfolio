@@ -3,11 +3,42 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 200vh;
+
+
+}
+.section{
+  background-color: #457b9d;
+  background-attachment: fixed;
+  
+ }
+
+ h1 {
+  font-size: 80px;
+  color: #1d3557;
+  margin-bottom: 2%;
+}
+.headcolor {
+  color: #a8dadc;
+  text-shadow: 0 8px 32px 0 #1d3557;
 }
 
-h1 {
-  font-size: 100px;
-  color: #000000;
-  margin-bottom: 2%;
+.cards{
+  background: #f1faee;
+  box-shadow: 0 8px 32px 0 #f2e29f;
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 5px;
+  margin: 20px ;
+  padding: 5px;
+}
+
+.card{
+  position: relative;
+}
+
+.img{
+  position: absolute;
 }

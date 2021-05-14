@@ -5,33 +5,40 @@
   align-items: center;
   align-self: center;
 }
+.section{
+  background-color: #457b9d;
+  background-attachment: fixed;
+  height: 150vh;
+}
 
 h1 {
   font-size: 100px;
-  color: #000000;
+  color: #1d3557;
   margin-bottom: 2%;
 }
 
 .headcolor {
-  color: #15b9f4;
+  color: #a8dadc;
 }
 .contacticons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f1faee;
 }
 .cntctme {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  color: #000000;
+  color: #1d3557;
   font-size: 18px;
+  
 }
 .cnticn {
   padding: 15px;
-  background-color: #15b9f4;
-  color: #000000;
+  background-color: #a8dadc;
+  color: #1d3557;
   border-radius: 50px;
 }
 .form-labels {
@@ -45,4 +52,23 @@ h1 {
 .yourinfo {
   display: flex;
   flex-direction: row;
+}
+.dsply{
+  display: flex;
+  flex-direction: row;
+}
+
+.contactdetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f1faee;
+  box-shadow: 0 8px 32px 0 #f2e29f;
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 5px;
+  margin: 50px;
 }
