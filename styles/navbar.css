@@ -2,15 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: solid; */
+  /* border: solid;  */
 }
 
 .navbar-links {
   display: flex;
   flex-direction: column;
-
   list-style-type: none;
-  background: #15b9f4;
+  background: #a8dadc;
   border-radius: 20px;
   position: fixed;
   top: 25px;
@@ -18,7 +17,6 @@
   width: 40px;
   height: 40px;
   overflow: hidden;
-
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -38,9 +36,9 @@
   top: 25px;
   right: 25px;
   z-index: 100;
-  font-size: 30px;
-  background: #000000;
-  color: #15b9f4;
+  font-size: 15px;
+  background: #1d3557;
+  color: #a8dadc;
   border: none;
   border-radius: 5px;
   outline: none;
@@ -51,27 +49,22 @@
 }
 
 .navbar-button:hover {
-  background-color: #15b9f4;
-  color: #000000;
-  border-color: #15b9f4;
+  background-color: #a8dadc;
+  color: #1d3557;
+  border-color: #a8dadc;
   transition: 0.6s;
 }
-
-.navbar-link {
-}
-
 .navbar-anchor {
   text-decoration: none;
-  color: #000000;
-  font-size: 20px;
+  color: #1d3557;
+  font-size: 15px;
   transition: 0.6s;
 }
-
 .navbar-anchor:hover {
-  color: #15b9f4;
-  background-color: #000000;
+  color: #a8dadc;
+  background-color: #1d3557;
   transition: 0.6s;
   padding: 5px;
   border-radius: 5px;
-  font-size: 30px;
+  font-size: 20px;
 }

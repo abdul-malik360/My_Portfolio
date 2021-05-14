@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-}
-
 .fullpage {
   background-image: url(/images/cliff.jpg);
   background-size: cover;
@@ -17,26 +14,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   height: 100vh;
 }
 
 h1 {
-  font-size: 100px;
-  color: #000000;
+  font-size: 80px;
+  color: #1d3557;
   margin-bottom: 2%;
 }
 .headcolor {
-  color: #15b9f4;
+  color: #a8dadc;
+  text-shadow: 3px 3px 3px #1d3557;
 }
 .homestatement {
-  color: #000000;
-  font-size: 25px;
+  color: #1d3557;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .btn {
-  color: #15b9f4;
-  border: 2px solid #15b9f4;
+  color: #1d3557;
+  border: 2px solid #1d3557;
+  background-color: #a8dadc;
   border-radius: 50px;
   padding: 10px 20px;
   margin-top: 2%;
@@ -45,16 +44,19 @@ h1 {
   transition: 0.6s;
 }
 
-.btntxt {
-  text-decoration: none;
-  color: #000000;
-  font-weight: 900;
-  font-size: 15px;
-}
-
 .btn:hover {
-  background-color: #15b9f4;
-  color: aliceblue;
-  border-color: #15b9f4;
+  color: #a8dadc;
+  border: 2px solid #a8dadc;
+  background-color: #1d3557;
   transition: 0.6s;
 }
+.btntxt {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-decoration: none;
+  color: #1d3557;
+  font-weight: 900;
+  font-size: 13px;
+}
+
