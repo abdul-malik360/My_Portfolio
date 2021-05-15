@@ -5,9 +5,19 @@
   align-items: center;
   align-self: center;
 }
-.section{
+
+body{
   background-color: #457b9d;
-  background-attachment: fixed;
+}
+.section{
+  background: #f1faee;
+  box-shadow: 0 8px 32px 0 #f2e29f;
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 5px;
+  margin: 50px;
   height: 150vh;
 }
 
@@ -25,15 +35,34 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f1faee;
+  background: #457b9d;
+  box-shadow: 0 8px 32px 0 #a8dadc;
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 15px;
+  margin: 50px;
+  color: #a8dadc;
 }
 .cntctme {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   color: #1d3557;
-  font-size: 18px;
-  
+  font-size: 18px; 
+}
+#contact-form{
+
+  background: #457b9d;
+  box-shadow: 0 8px 32px 0 #a8dadc;
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 15px;
+  margin: 50px;
+
 }
 .cnticn {
   padding: 15px;
@@ -48,6 +77,15 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  background: #a8dadc;
+  box-shadow: 0 8px 32px 0 #a8dadc;
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 15px;
+  margin: 50px;
 }
 .yourinfo {
   display: flex;
@@ -63,12 +101,9 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #f1faee;
-  box-shadow: 0 8px 32px 0 #f2e29f;
-  backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 1.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: 5px;
-  margin: 50px;
+ 
+}
+
+.txt{
+  color: #a8dadc;
 }
