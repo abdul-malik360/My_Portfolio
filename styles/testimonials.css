@@ -52,6 +52,9 @@ h1 {
   padding: 20px;
 }
 .pics img {
+  border-radius: 50%;
+ 
+  object-fit: scale-down;
   
 }
 

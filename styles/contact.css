@@ -108,6 +108,9 @@ h1 {
 }
 h3{
   font-size: 30px;
+  text-shadow: 3px 3px 3px #1d3557;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .txt{
   display: flex;
@@ -119,6 +122,60 @@ h3{
 }
 
 .msg{
-  width: 100%;
+  width: 95%;
   height: 15vh;
+}
+
+.form-input{
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  background-color: #f1faee;
+}
+
+.btn {
+  color: #a8dadc;
+  border: 2px solid #a8dadc;
+  background-color: #f1faee;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  
+  width: 10vw;
+  transition: 0.6s;
+ 
+  font-size: 13px;
+}
+
+.btn:hover {
+  color: #1d3557;
+  border: 2px solid #457b9d;
+  background-color: #f1faee;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  width: 10vw;
+  transition: 0.6s;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fab{
+  color: #a8dadc;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+.fab:hover{
+  color: #1d3557;
+  background-color: #a8dadc;
+  border-radius: 50%;
+  transition: 0.6s;
 }
