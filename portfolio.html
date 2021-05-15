@@ -17,7 +17,7 @@
     <nav class="navbar">
       <ul class="navbar-links">
         <li class="navbar-link">
-          <a href="./landing.html" class="navbar-anchor"
+          <a href="./index.html" class="navbar-anchor"
             ><i class="fas fa-home"></i> HOME</a
           >
         </li>
@@ -51,15 +51,154 @@
         <div id="portfolio">
           <h1>My <span class="headcolor"> Portfolio </span></h1>
           <div class="cards">
-            <img src="/images/cntctfrm.png" alt="" />
-            <img src="/images/adnmbrs.png" alt="" />
-            <img src="/images/tmlne.png" alt="" />
-            <img src="/images/tstmnl.png" alt="" />
-            <img src="/images/tmpcnvtr.png" alt="" />
+            <img
+              onclick="toggleModal('contact-form-modal')"
+              src="/images/cntctfrm.png"
+              alt=""
+            />
+            <img
+              onclick="toggleModal('add-numbers-modal')"
+              src="/images/adnmbrs.png"
+              alt=""
+            />
+            <img
+              onclick="toggleModal('timeline-modal')"
+              src="/images/tmlne.png"
+              alt=""
+            />
+            <img
+              onclick="toggleModal('testimonial-modal')"
+              src="/images/tstmnl.png"
+              alt=""
+            />
+            <img
+              onclick="toggleModal('temperature-converter-modal')"
+              src="/images/tmpcnvtr.png"
+              alt=""
+            />
+          </div>
+          <!-- Contact Form Modal -->
+          <div id="contact-form-modal" class="modal">
+            <button onclick="toggleModal('contact-form-modal')">Close</button>
+            <img
+            class="img"
+            src="./images/contact form.png"
+            alt="PICTURE OF MY CONTACT FORM"
+          />
+  
+          <div class="text">
+            <h2>Contact Form</h2>
+            <h3>HTML/CSS</h3>
+            <p>A contact form using Glassmorphism.com and Formspree.</p>
+          </div>
+          <div class="btns">
+            <button class="btn1">
+              <a
+                href="https://pensive-jepsen-852132.netlify.app/"
+                target="_blank"
+                class="btns"
+                >Live</a
+              >
+            </button>
+            <button class="btn2">
+              <a
+                href="https://github.com/abdul-malik360/Contact_Form"
+                target="_blank"
+                class="btns"
+                >Github</a
+              >
+            </button>
+          </div>
+          <!-- Add Numbers Modal -->
+          <div id="add-numbers-modal" class="modal">
+            <button onclick="toggleModal('add-numbers-modal')">Close</button>
+            <h2>Add Numbers</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit vel
+              nihil rerum neque omnis eius at, adipisci, illum magni molestiae
+              labore! Exercitationem odit alias a dolore cum vel veniam!
+              Blanditiis.
+            </p>
+          </div>
+          <!-- Timeline Modal -->
+          <div id="timeline-modal" class="modal">
+            <button onclick="toggleModal('timeline-modal')">Close</button>
+            <img
+            class="img"
+            src="./images/timeline.png"
+            alt="PICTURE OF MY TIMELINE"
+          />
+  
+          <div class="text">
+            <h2>Timeline</h2>
+            <h3>HTML/CSS</h3>
+            <p>A timeline of work experience using AOS(Animate On Scroll).</p>
+          </div>
+          <div class="btns">
+            <button class="btn1">
+              <a
+                href="https://youthful-ride-5ab649.netlify.app/"
+                target="_blank"
+                class="btns"
+                >Live</a
+              >
+            </button>
+            <button class="btn2">
+              <a
+                href="https://github.com/abdul-malik360/My_Timeline"
+                target="_blank"
+                class="btns"
+                >Github</a
+              >
+            </button>
+          </div>
+          <!-- Testimonial Modal -->
+          <div id="testimonial-modal" class="modal">
+            <button onclick="toggleModal('testimonial-modal')">Close</button>
+            <img
+            class="img"
+            src="./images/testimonials.png"
+            alt="PICTURE OF MY TESTOMONIALS"
+          />
+  
+          <div class="text">
+            <h2>Testomonials</h2>
+            <h3>HTML/CSS</h3>
+            <p>A testimonial slider using a jQuery plugin called OWL Carousel.</p>
+          </div>
+          <div class="btns">
+            <button class="btn1">
+              <a
+                href="https://confident-poincare-1690a0.netlify.app/"
+                target="_blank"
+                class="btns"
+                >Live</a
+              >
+            </button>
+            <button class="btn2">
+              <a
+                href="https://github.com/abdul-malik360/my_testomonials"
+                target="_blank"
+                class="btns"
+                >Github</a
+              >
+            </button>
+          </div>
+          <!-- Temperature Converter Modal -->
+          <div id="temperature-converter-modal" class="modal">
+            <button onclick="toggleModal('temperature-converter-modal')">
+              Close
+            </button>
+            
           </div>
         </div>
       </div>
     </div>
     <script src="scripts.js"></script>
+    <script>
+      function toggleModal(modalID) {
+        document.getElementById(modalID).classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
