@@ -32,6 +32,7 @@ h1 {
 }
 img {
   margin: 0 8px 8px 0; /* Some gutter */
+  width: 10%;
 }
 
 .modal {

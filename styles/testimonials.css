@@ -58,6 +58,7 @@ h1 {
   align-self: center;
   border-radius: 50%;
   border: solid 5px #a8dadc;
+  box-shadow: 0 4px 15px 0 #f1faee;
 }
 
 .name {
