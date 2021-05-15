@@ -1,13 +1,13 @@
-body{
+body {
   background-color: #457b9d;
 }
-.page{
+.page {
   background: #f1faee;
   box-shadow: 0 8px 32px 0 #f2e29f;
-  backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 1.5px );
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 5px;
   margin: 50px;
   height: 100vh;
@@ -52,10 +52,12 @@ h1 {
   padding: 20px;
 }
 .pics img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
   border-radius: 50%;
- 
-  object-fit: scale-down;
-  
+  border: solid 5px #a8dadc;
 }
 
 .name {
@@ -71,4 +73,3 @@ h1 {
   font-style: italic;
   color: #f1faee;
 }
-

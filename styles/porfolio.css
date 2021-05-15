@@ -1,13 +1,13 @@
-body{
+body {
   background-color: #457b9d;
 }
-.section{
+.section {
   background: #f1faee;
   box-shadow: 0 8px 32px 0 #f2e29f;
-  backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 1.5px );
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 5px;
   margin: 50px;
 }
@@ -21,27 +21,15 @@ h1 {
 }
 .headcolor {
   color: #a8dadc;
-  
-}
-img{
-  padding: 20px;
-  margin: 20px;
-  width: 100%;
- 
 }
 
-.cards{
+.cards {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 20px;
-  margin: 20px;
+  flex-flow: column wrap;
+  max-height: 50vh;
+  margin: 40px; /* Adjustment for the gutter */
+  width: 95%;
 }
-.html{
-  display: flex;
-  flex-direction: column;
-}
-.python{
-  display: flex;
-  flex-direction: column;
+img {
+  margin: 0 8px 8px 0; /* Some gutter */
 }
