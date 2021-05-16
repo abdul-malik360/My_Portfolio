@@ -25,14 +25,24 @@ h1 {
 
 .cards {
   display: flex;
-  flex-flow: column wrap;
-  max-height: 50vh;
-  margin: 40px; /* Adjustment for the gutter */
-  width: 95%;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
 }
-img {
-  margin: 0 8px 8px 0; /* Some gutter */
-  width: 10%;
+.html{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.python{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clickpic {
+  display: flex;
+  justify-content: center;
+  
 }
 
 .modal {
@@ -40,10 +50,75 @@ img {
 }
 
 .modal.active {
-  display: block;
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 #a8dadc;
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 2px solid #1d3557;
+
+  
+  flex-direction: column;
+  flex: 1 1 200px;
+  flex: 0 1 200px;
+
+  margin: 2%;
+  padding: 1%;
+
+  width: 48%;
+  min-width: 300px;
+}
+
+.img {
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.btn1 {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  padding: 10px 20px;
+  width: 45%;
+  margin-right: 1%;
+  color: black;
+  text-decoration: none;
+}
+
+.btn2 {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  padding: 10px 20px;
+  width: 45%;
+  margin-right: 1%;
+}
+
+.btns {
+  display: flex;
+  color: black;
+  text-decoration: none;
 }

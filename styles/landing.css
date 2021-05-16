@@ -68,6 +68,76 @@ h1 {
   transition: 0.6s;
 }
 
+.footer{
+  background-color: #457b9d;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  
+}
+.footerbtn{
+  color: #a8dadc;
+  border: 2px solid #a8dadc;
+  background: none;
+ 
+  border-radius: 50px;
+  width: 10vw;
+  transition: 0.6s;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.footerbtn:hover {
+  
+  background:none;
+  border: 2px solid #f1faee;
+  border-radius: 50px;
+  width: 10vw;
+  transition: 0.6s;
+}
+
+.footerbtntxt{
+  text-decoration: none ;
+  color: #a8dadc;
+  transition: 0.6s;
+  
+}
+.footerbtntxt:hover{
+  text-decoration: none ;
+  color: #f1faee;
+  transition: 0.6s;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 10%;
+  
+  
+}
+
+.fab{
+  color: #a8dadc;
+  font-size: 25px;
+  transition: 0.6s;
+}
+.fab:hover{
+  color: #f1faee;
+  transition: 0.6s;
+}
+
+
+
+
 @media screen and (max-width: 800px) {
   .navbar-links.navbar-links.active {
     width: 50%;

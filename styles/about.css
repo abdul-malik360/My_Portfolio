@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-.section {
+body {
   background-color: #457b9d;
-  background-attachment: fixed;
 }
 
 .aboutdetails {

@@ -51,40 +51,46 @@
         <div id="portfolio">
           <h1>My <span class="headcolor"> Portfolio </span></h1>
           <div class="cards">
-            <img
+
+            <div class="html">
+
+              <img class="clickpic"
               onclick="toggleModal('contact-form-modal')"
-              src="/images/cntctfrm.png"
-              alt=""
-            />
-            <img
-              onclick="toggleModal('add-numbers-modal')"
-              src="/images/adnmbrs.png"
-              alt=""
-            />
-            <img
+              src="/images/click contact form.PNG"
+              alt="" />
+              <img class="clickpic"
               onclick="toggleModal('timeline-modal')"
-              src="/images/tmlne.png"
-              alt=""
-            />
-            <img
+              src="/images/click timeline.PNG"
+              alt="" />
+              <img class="clickpic"
               onclick="toggleModal('testimonial-modal')"
-              src="/images/tstmnl.png"
-              alt=""
-            />
-            <img
+              src="/images/click testimonials.PNG"
+              alt=""/>
+              <img class="clickpic"
+              onclick="toggleModal('projects-card-modal')"
+              src="/images/click project card.PNG"
+              alt="" />
+              <img class="clickpic"
+              onclick="toggleModal('sneaker-site-modal')"
+              src="/images/click sneaker site.PNG"
+              alt="" />
+            </div>
+
+            <div class="python">
+
+              <img class="clickpic"
+              onclick="toggleModal('add-numbers-modal')"
+              src="/images/click adding numbers.PNG"
+              alt=""/>
+              <img class="clickpic"
               onclick="toggleModal('temperature-converter-modal')"
-              src="/images/tmpcnvtr.png"
-              alt=""
-            />
-            <img
-            onclick="toggleModal('sneaker-site-modal')"
-            src="/images/sneaker store.PNG"
-            alt=""
-          />
+              src="/images/click temperature converter.PNG"
+              alt=""/>
+            </div>
           <!-- Contact Form Modal -->
           <div id="contact-form-modal" class="modal">
             <button onclick="toggleModal('contact-form-modal')">Close</button>
-            <img src="/images/Contact Form.PNG" alt="PICTURE OF MY CONTACT FORM">
+            <img src="/images/my contact form.PNG" alt="PICTURE OF MY CONTACT FORM">
             <div>
               <h2>Contact Form</h2>
             <h3>HTML/CSS</h3>
@@ -113,6 +119,7 @@
           <!-- Add Numbers Modal -->
           <div id="add-numbers-modal" class="modal">
             <button onclick="toggleModal('add-numbers-modal')">Close</button>
+            <img src="/images/my adding numbers.PNG" alt="PICTURE OF Addition Calculator">
             <h2>Addition Calculator</h2>
             <h3>PYTHON</h3>
             <p>
@@ -143,7 +150,7 @@
             <button onclick="toggleModal('timeline-modal')">Close</button>
             <img
             class="img"
-            src="./images/timeline.png"
+            src="./images/my timeline.PNG"
             alt="PICTURE OF MY TIMELINE"
           />
   
@@ -151,35 +158,30 @@
             <h2>Timeline</h2>
             <h3>HTML/CSS</h3>
             <p>A timeline of work experience using AOS(Animate On Scroll).</p>
-          </div>
-          <div class="btns">
-            <button class="btn1">
-              <a
-                href="https://youthful-ride-5ab649.netlify.app/"
-                target="_blank"
-                class="btns"
-                >Live</a
-              >
-            </button>
-            <button class="btn2">
-              <a
-                href="https://github.com/abdul-malik360/My_Timeline"
-                target="_blank"
-                class="btns"
-                >Github</a
-              >
-            </button>
-          </div>
-          
-  
-
-
-         
-      
-        </div>
+            <div class="btns">
+              <button class="btn1">
+                <a
+                  href="https://youthful-ride-5ab649.netlify.app/"
+                  target="_blank"
+                  class="btns"
+                  >Live</a
+                >
+              </button>
+              <button class="btn2">
+                <a
+                  href="https://github.com/abdul-malik360/My_Timeline"
+                  target="_blank"
+                  class="btns"
+                  >Github</a
+                >
+              </button>
+            </div>
+          </div></div>
+        
         <!-- Testimonials Modal -->
         <div id="testimonial-modal" class="modal">
           <button onclick="toggleModal('testimonial-modal')">Close</button>
+          <img src="/images/my testimonials.PNG" alt="PICTURE OF MY TESTIMONIALS">
           <h2>Testimonials</h2>
           <h3>HTML/CSS</h3>
           <p>
@@ -204,9 +206,38 @@
             </button>
           </div>
         </div>
+        <!-- Projects Card Modal -->
+        <div id="projects-card-modal" class="modal">
+          <button onclick="toggleModal('projects-card-modal')">Close</button>
+          <img src="/images/my projects card.PNG" alt="PICTURE OF MY PROJECTS CARD">
+          <h2>Temperature Converter</h2>
+          <h3>PYTHON</h3>
+          <p>
+            Defining functions in python to create a program converting temperatures fahrenheit to celcius and vice versa.
+          </p>
+          <button class="btns">
+            <button class="btn1">
+              <a
+                href="https://replit.com/@abdulmalik360/Temperature-Converter#main.py"
+                target="_blank"
+                class="btns"
+                >Live</a
+              >
+            </button>
+            <button class="btn2">
+              <a
+                href="https://github.com/abdul-malik360/temperature_converter/blob/main/temp_converter-task.py"
+                target="_blank"
+                class="btns"
+                >Github</a
+              >
+            </button>
+          </button>
+        </div>
         <!-- Temperature Converter Modal -->
         <div id="temperature-converter-modal" class="modal">
           <button onclick="toggleModal('temperature-converter-modal')">Close</button>
+          <img src="/images/my temperature converter.PNG" alt="PICTURE OF TEMPERATURE CONVERTER">
           <h2>Temperature Converter</h2>
           <h3>PYTHON</h3>
           <p>
@@ -234,6 +265,7 @@
         <!-- Sneaker Site -->
         <div id="sneaker-site-modal" class="modal">
           <button onclick="toggleModal('sneaker-site-modal')">Close</button>
+          <img src="/images/my sneaker site.PNG" alt="PICTURE OF SNEAKER SITE">
           <h2>Sneaker Site</h2>
           <h3>HTML/CSS</h3>
           <p>
