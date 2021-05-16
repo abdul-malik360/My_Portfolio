@@ -167,4 +167,10 @@ h1 {
     align-self: center;
     font-size: smaller;
   }
+
+  .fullpage{
+    flex-direction: column;
+  flex: 1 1 200px;
+  flex: 0 1 200px;
+  }
 }
