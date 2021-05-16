@@ -24,29 +24,24 @@ h1 {
 }
 
 .cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 20px;
+  width: 1200px;
+  margin: 20px;
+  columns: 3;
+  column-gap: 40px;
 }
-.html{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.python{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.card{
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px;
+  overflow: hidden;
 }
 .clickpic {
-  display: flex;
-  justify-content: center;
-  
+  max-width: 100%;
 }
 
 .modal {
   display: none;
+  height: 50%;
 }
 
 .modal.active {
@@ -56,6 +51,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
+  
 
   background: rgba(255, 255, 255, 0.35);
   box-shadow: 0 8px 32px 0 #a8dadc;
