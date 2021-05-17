@@ -156,27 +156,9 @@ h1 {
     transition: 0.6s;
   } */
 
-  body{
-    height: 100%;
-  }
-  .homestatement {
-    color: #1d3557;
-    text-shadow: 3px 3px 3px #a8dadc;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .homedetails {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    font-size: smaller;
-  }
 
-  .fullpage{
-  flex-direction: column;
-  flex: 1 1 200px;
-  flex: 0 1 200px;
-  }
+
+ 
   .navbar-anchor{
     font-size: 13px;
   }
