@@ -187,6 +187,9 @@ h1 {
   .btn{
     width: 50%;
   }
+  .btn:hover{
+    width: 50%;
+  }
 
 
   .footerbtn{
