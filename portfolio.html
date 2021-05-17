@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PORTFOLIO</title>
+    <title>MY PROJECTS</title>
+    <link rel="icon" href="/images/portfolio image.PNG" type="image/icon type">
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/porfolio.css" />
 
@@ -88,7 +89,7 @@
             
           <!-- Contact Form Modal -->
           <div id="contact-form-modal" class="modal">
-            <button onclick="toggleModal('contact-form-modal')">Close</button>
+            <button onclick="toggleModal('contact-form-modal')"><span class="modalbtn">X</span></button>
             <img src="/images/my contact form.PNG" alt="PICTURE OF MY CONTACT FORM">
             <div>
               <h2>Contact Form</h2>
@@ -115,9 +116,10 @@
           </div>
             </div>
           </div>
+          
           <!-- Add Numbers Modal -->
           <div id="add-numbers-modal" class="modal">
-            <button onclick="toggleModal('add-numbers-modal')">Close</button>
+            <button  onclick="toggleModal('add-numbers-modal')"><span class="modalbtn">X</span></button>
             <img src="/images/my adding numbers.PNG" alt="PICTURE OF Addition Calculator">
             <h2>Addition Calculator</h2>
             <h3>PYTHON</h3>
@@ -146,17 +148,15 @@
           </div>
           <!-- Timeline Modal -->
           <div id="timeline-modal" class="modal">
-            <button onclick="toggleModal('timeline-modal')">Close</button>
-            <img
-            class="img"
-            src="./images/my timeline.PNG"
-            alt="PICTURE OF MY TIMELINE"
-          />
-  
-          <div class="text">
-            <h2>Timeline</h2>
-            <h3>HTML/CSS</h3>
-            <p>A timeline of work experience using AOS(Animate On Scroll).</p>
+            <button onclick="toggleModal('timeline-modal')"><span class="modalbtn">X</span></button>
+            <img src="./images/my timeline.PNG"
+            alt="PICTURE OF MY TIMELINE"/>
+    
+            <div class="text">
+              <h2>Timeline</h2>
+              <h3>HTML/CSS</h3>
+              <p>A timeline of work experience using AOS(Animate On Scroll).</p>
+            </div>
             <div class="btns">
               <button class="btn1">
                 <a
@@ -172,14 +172,14 @@
                   target="_blank"
                   class="btns"
                   >Github</a
-                >
+                  >
               </button>
             </div>
-          </div></div>
+        </div>
         
         <!-- Testimonials Modal -->
         <div id="testimonial-modal" class="modal">
-          <button onclick="toggleModal('testimonial-modal')">Close</button>
+          <button onclick="toggleModal('testimonial-modal')"><span class="modalbtn">X</span></button>
           <img src="/images/my testimonials.PNG" alt="PICTURE OF MY TESTIMONIALS">
           <h2>Testimonials</h2>
           <h3>HTML/CSS</h3>
@@ -207,12 +207,13 @@
         </div>
         <!-- Projects Card Modal -->
         <div id="projects-card-modal" class="modal">
-          <button onclick="toggleModal('projects-card-modal')">Close</button>
+          <button onclick="toggleModal('projects-card-modal')"><span class="modalbtn">X</span></button>
           <img src="/images/my projects card.PNG" alt="PICTURE OF MY PROJECTS CARD">
           <h2>Projects Card</h2>
           <h3>HTML/CSS</h3>
           <p>
-           PROJ CARD
+            A Project Card with links to all my completed projects using
+            Glassmorphism.com.
           </p>
           <button class="btns">
             <button class="btn1">
@@ -235,7 +236,7 @@
         </div>
         <!-- Temperature Converter Modal -->
         <div id="temperature-converter-modal" class="modal">
-          <button onclick="toggleModal('temperature-converter-modal')">Close</button>
+          <button onclick="toggleModal('temperature-converter-modal')"><span class="modalbtn">X</span></button>
           <img src="/images/my temperature converter.PNG" alt="PICTURE OF TEMPERATURE CONVERTER">
           <h2>Temperature Converter</h2>
           <h3>PYTHON</h3>
@@ -263,7 +264,7 @@
         </div>
         <!-- Sneaker Site -->
         <div id="sneaker-site-modal" class="modal">
-          <button onclick="toggleModal('sneaker-site-modal')">Close</button>
+          <button class="xclose" onclick="toggleModal('sneaker-site-modal')"><span class="modalbtn">X</span></button>
           <img src="/images/my sneaker site.PNG" alt="PICTURE OF SNEAKER SITE">
           <h2>Sneaker Site</h2>
           <h3>HTML/CSS</h3>

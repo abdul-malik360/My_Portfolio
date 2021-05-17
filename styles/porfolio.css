@@ -39,6 +39,11 @@ h1 {
   max-width: 100%;
 }
 
+.clickpic:hover{
+  border: 2px solid #a8dadc;
+  box-shadow: 0 8px 20px 0 #1d3557;
+}
+
 .modal {
   display: none;
   height: 50%;
@@ -68,15 +73,23 @@ h1 {
   margin: 2%;
   padding: 1%;
 
-  width: 48%;
+  width: 50%;
   min-width: 300px;
 }
 
-.img {
-  height: 50%;
-  width: 50%;
-  border-radius: 10px;
+h2{
+  color: #1d3557;
+  text-shadow: 3px 3px 3px #a8dadc;
 }
+h3{
+  color: #1d3557;
+  text-shadow: 3px 3px 3px #a8dadc ;
+}
+p{
+  color: #1d3557;
+  text-shadow: 3px 3px 3px #f1faee;
+}
+
 
 .text {
   display: flex;
@@ -117,4 +130,26 @@ h1 {
   display: flex;
   color: black;
   text-decoration: none;
+}
+
+.modalbtn{
+  
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 100;
+  font-size: 40px;
+  
+  color: #f1faee;
+  
+  outline: none;
+  
+ 
+  transition: 0.6s;
+}
+
+.modalbtn:hover{
+  transform: rotate(360deg);
+ 
+
 }
