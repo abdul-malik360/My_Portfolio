@@ -89,7 +89,12 @@
 }
 
 @media screen and (max-width: 800px) {
-  .navbar-anchor {
-    font-size: 16px;
+  .navbar-anchor{
+    font-size: 13px;
   }
+  .navbar-links.active{
+    width: 50%;
+  }
+  
+  
 }
