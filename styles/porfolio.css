@@ -29,7 +29,7 @@ h1 {
   columns: 3;
   column-gap: 40px;
 }
-.card{
+.card {
   width: 100%;
   margin: 0 0 20px;
   padding: 10px;
@@ -51,7 +51,6 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  
 
   background: rgba(255, 255, 255, 0.35);
   box-shadow: 0 8px 32px 0 #a8dadc;
@@ -60,7 +59,6 @@ h1 {
   border-radius: 10px;
   border: 2px solid #1d3557;
 
-  
   flex-direction: column;
   flex: 1 1 200px;
   flex: 0 1 200px;
@@ -115,6 +113,13 @@ h1 {
 
 .btns {
   display: flex;
-  color: black;
+  color: #1d3557;
   text-decoration: none;
+}
+
+.btn1:hover {
+  box-shadow: 0 8px 32px 0 #1d3557;
+}
+.btn2:hover {
+  box-shadow: 0 8px 32px 0 #1d3557;
 }
