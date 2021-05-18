@@ -416,10 +416,12 @@ h6 {
     font-size: 15px;
   }
   .resume{
+    width: 90%;
     padding: 5px;
     margin: 5px;
   }
   .skills{
+    width: 90%;
     padding: 5px;
     margin: 5px;
   }
