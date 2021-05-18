@@ -192,6 +192,8 @@ h3{
     width: 50%;
   }
   .section{
+    display: flex;
+    justify-content: center;
     height: 90vh;
     width: 100%;
   }
