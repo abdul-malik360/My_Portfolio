@@ -169,6 +169,7 @@ h1 {
   .homedetails{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
   }
   
   .btn{
