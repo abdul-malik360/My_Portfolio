@@ -370,7 +370,9 @@ h6 {
   } 
   .placeabout{
     width: 90%;
-    height: 100%;
+    height: 150vh;
+    padding: 5px;
+    margin: 5px;
   }
  
   .myinfo{
