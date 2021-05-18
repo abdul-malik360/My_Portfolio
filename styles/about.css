@@ -362,13 +362,15 @@ h6 {
   .navbar-links.active{
     width: 50%;
   }
-  .aboutdetails{
+  /* .aboutdetails{
     display: flex;
     flex-direction: column;
-  }
+    justify-content: center;
+    width: 100%;
+  } */
   .placeabout{
     width: 90%;
-    height: 90%;
+    height: 150vh;
   }
   .myinfo{
     display: flex;
@@ -379,10 +381,15 @@ h6 {
   }
 
   .bio{
+    display: flex;
+    justify-content: center;
+    align-self: center;
     font-size: 16px;
+    padding: 20px;
+    margin-left: 5%;
   }
-  .detailicons{
-    font-size: 16px;
+  .mydetails{
+    font-size: 10px;
   }
 
 
