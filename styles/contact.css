@@ -188,7 +188,7 @@ h3{
     width: 50%;
   }
   .section{
-    height: 85vh;
+    height: 90vh;
     width: 100%;
   }
   h1{
@@ -225,6 +225,7 @@ h3{
     width: 40%;
   }
   #contact-form{
+    height: 100%;
     width: 100%;
   }
   .txt{
