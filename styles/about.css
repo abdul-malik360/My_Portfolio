@@ -369,10 +369,14 @@ h6 {
     width: 100%;
   } */
   .placeabout{
-    width: 90%;
-    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .myinfo{
+  img{
+    margin-top: 20%;
+  }
+  /* .myinfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,7 +395,7 @@ h6 {
   .mydetails{
     font-size: 10px;
   }
-
+ */
 
 
 
