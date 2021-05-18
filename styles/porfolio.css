@@ -150,3 +150,19 @@ p {
 .btn2:hover {
   box-shadow: 0 8px 32px 0 #1d3557;
 }
+
+@media screen and (max-width: 800px) {
+
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card{
+    display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  flex: 0 1 200px;
+  }
+  
+}

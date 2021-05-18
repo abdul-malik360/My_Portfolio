@@ -362,21 +362,18 @@ h6 {
   .navbar-links.active{
     width: 50%;
   }
-  /* .aboutdetails{
+  .aboutdetails{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-  } */
+  } 
   .placeabout{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 90%;
+    height: 100%;
   }
-  img{
-    margin-top: 20%;
-  }
-  /* .myinfo{
+ 
+  .myinfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -395,55 +392,10 @@ h6 {
   .mydetails{
     font-size: 10px;
   }
- */
 
 
 
+
   
   
-  
-  /* #about {
-  }
-  .placeabout {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: fit-content;
-    margin: auto;
-  }
-  
-  .myinfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  } */
-  /* .aboutdetails {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 150vh;
-  }
-  h1 {
-    font-size: 40px;
-    color: #1d3557;
-  }
-  .placeabout {
-    width: 100vw;
-  }
-  .aboutinfo {
-    font-size: smaller;
-  }
-  .mydetailsicons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .myinfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-  } */
 }
