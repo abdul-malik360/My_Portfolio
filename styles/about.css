@@ -367,6 +367,9 @@ h6 {
     padding: 5px;
     margin: 5px;
   }
+  .mypic{
+    margin-top: 20px;
+  }
   .aboutdetails{
     display: flex;
     flex-direction: column;
