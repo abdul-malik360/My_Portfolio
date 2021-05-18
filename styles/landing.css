@@ -165,6 +165,11 @@ h1 {
   .navbar-links.active{
     width: 50%;
   }
+
+  .homedetails{
+    display: flex;
+    justify-content: flex-start;
+  }
   
   .btn{
     width: 50%;
