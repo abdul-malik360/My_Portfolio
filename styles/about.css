@@ -421,6 +421,10 @@ h6 {
   }
   .skillicon{
     font-size: 13px;
+    padding: 2px;
+  }
+  fab{
+    font-size: 16px;
   }
 
 
