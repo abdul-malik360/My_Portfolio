@@ -201,6 +201,8 @@ h3{
     font-size: 40px;
   }
   .contactdetails{
+    display: flex;
+    justify-content: center;
     width: 90%;
   }
   .contacticons{
