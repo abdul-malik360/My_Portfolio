@@ -39,7 +39,7 @@ h1 {
   max-width: 100%;
 }
 
-.clickpic:hover{
+.clickpic:hover {
   border: 2px solid #a8dadc;
   box-shadow: 0 8px 20px 0 #1d3557;
 }
@@ -75,29 +75,22 @@ h1 {
   min-width: 300px;
 }
 
-h2{
+h2 {
   color: #1d3557;
   text-shadow: 3px 3px 3px #a8dadc;
 }
-h3{
+h3 {
   color: #1d3557;
-  text-shadow: 3px 3px 3px #a8dadc ;
+  text-shadow: 3px 3px 3px #a8dadc;
 }
-p{
+p {
   color: #1d3557;
-  text-shadow: 3px 3px 3px #f1faee;}
+  text-shadow: 3px 3px 3px #f1faee;
+}
 .img {
   height: 50%;
   width: 100%;
   border-radius: 10px;
-}
-
-
-.text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 10%;
 }
 
 .btn1 {
@@ -134,26 +127,22 @@ p{
   text-decoration: none;
 }
 
-.modalbtn{
-  
+.modalbtn {
   position: fixed;
   top: 25px;
   right: 25px;
   z-index: 100;
   font-size: 40px;
-  
+
   color: #f1faee;
-  
+
   outline: none;
-  
- 
+
   transition: 0.6s;
 }
 
-.modalbtn:hover{
+.modalbtn:hover {
   transform: rotate(360deg);
- 
-
 }
 .btn1:hover {
   box-shadow: 0 8px 32px 0 #1d3557;
