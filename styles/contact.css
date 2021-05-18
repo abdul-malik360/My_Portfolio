@@ -225,4 +225,7 @@ h3{
   #contact-form{
     width: 100%;
   }
+  .txt{
+    font-size: 16px;
+  }
 }
