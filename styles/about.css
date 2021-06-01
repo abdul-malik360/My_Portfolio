@@ -30,8 +30,8 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #f1faee;
-  box-shadow: 0 8px 32px 0 #f2e29f;
+  background: white;
+
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
@@ -120,8 +120,8 @@ h1 {
   width: 13vw;
 }
 .resume {
-  background: #f1faee;
-  box-shadow: 0 8px 32px 0 #f2e29f;
+  background: white;
+
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
@@ -226,8 +226,8 @@ h6 {
   align-items: center;
   height: 100%;
 
-  background: #f1faee;
-  box-shadow: 0 8px 32px 0 #f2e29f;
+  background: white;
+
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
@@ -356,20 +356,16 @@ h6 {
 }
 
 @media screen and (max-width: 800px) {
-  .navbar-anchor{
+  .navbar-anchor {
     font-size: 13px;
   }
-  .navbar-links.active{
+  .navbar-links.active {
     width: 50%;
   }
-  .placeabout{
+  .placeabout {
     width: 50vw;
   }
 
-
-  
-  
-  
   /* #about {
   }
   .placeabout {
