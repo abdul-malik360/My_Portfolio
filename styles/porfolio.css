@@ -1,9 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
   background-color: #457b9d;
 }
 .section {
-  background: #f1faee;
-  box-shadow: 0 8px 32px 0 #f2e29f;
+  background: white;
+
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
@@ -152,12 +159,11 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-
-  h1{
+  h1 {
     font-size: 40px;
   }
 
-  .cards{
+  .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -165,11 +171,10 @@ p {
     padding: 5px;
     margin: 5px;
   }
-  .card{
+  .card {
     display: flex;
-  flex-direction: column;
-  flex: 1 1 200px;
-  flex: 0 1 200px;
+    flex-direction: column;
+    flex: 1 1 200px;
+    flex: 0 1 200px;
   }
-  
 }

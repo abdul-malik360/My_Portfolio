@@ -1,9 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
   background-color: #457b9d;
 }
 .section {
-  background: #f1faee;
-  box-shadow: 0 8px 32px 0 #f2e29f;
+  background: white;
+
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
@@ -76,15 +83,15 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
-  .section{
+  .section {
     width: 100%;
   }
 
-  h1{
+  h1 {
     font-size: 40px;
   }
 
-  .owl-carousel{
+  .owl-carousel {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,23 +99,20 @@ h1 {
     padding: 5px;
     margin: 5px;
   }
-  .container{
+  .container {
     display: flex;
     flex-direction: column-reverse;
     flex: 1 1 200px;
     flex: 0 1 200px;
     height: 85vh;
   }
-  .name{
+  .name {
     font-size: 25px;
-  
   }
-  .title{
+  .title {
     font-size: 20px;
-
   }
-  .message{
+  .message {
     font-size: 16px;
   }
-  
 }

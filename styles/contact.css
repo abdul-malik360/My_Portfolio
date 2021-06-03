@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 #contact {
   display: flex;
   flex-direction: column;
@@ -6,16 +12,16 @@
   align-self: center;
 }
 
-body{
+body {
   background-color: #457b9d;
 }
-.section{
-  background: #f1faee;
-  box-shadow: 0 8px 32px 0 #f2e29f;
-  backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 1.5px );
+.section {
+  background: white;
+
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 5px;
   margin: 50px;
   height: 150vh;
@@ -36,11 +42,11 @@ h1 {
   justify-content: center;
   align-items: center;
   background: #457b9d;
-  box-shadow: 0 8px 32px 0 #a8dadc;
-  backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 1.5px );
+
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 15px;
   margin: 50px;
   color: #a8dadc;
@@ -50,21 +56,18 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   color: #1d3557;
-  font-size: 18px; 
+  font-size: 18px;
 }
-#contact-form{
-
+#contact-form {
   background: #457b9d;
-  box-shadow: 0 8px 32px 0 #a8dadc;
-  backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 1.5px );
+
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 15px;
   margin: 50px;
   height: 80vh;
-
-
 }
 .cnticn {
   padding: 15px;
@@ -81,11 +84,11 @@ h1 {
   justify-content: center;
 
   background: #a8dadc;
-  box-shadow: 0 8px 32px 0 #a8dadc;
-  backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 1.5px );
+
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 15px;
   margin: 50px;
 }
@@ -93,26 +96,25 @@ h1 {
   display: flex;
   flex-direction: row;
 }
-.dsply{
+.dsply {
   display: flex;
   flex-direction: row;
   height: 100%;
 }
 
-.contactdetails{
+.contactdetails {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
-h3{
+h3 {
   font-size: 30px;
   text-shadow: 3px 3px 3px #1d3557;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.txt{
+.txt {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -121,12 +123,12 @@ h3{
   color: #a8dadc;
 }
 
-.msg{
+.msg {
   width: 95%;
   height: 15vh;
 }
 
-.form-input{
+.form-input {
   padding: 20px;
   margin: 20px;
   border: none;
@@ -140,10 +142,10 @@ h3{
   border-radius: 10px;
   padding: 10px;
   margin: 20px;
-  
+
   width: 10vw;
   transition: 0.6s;
- 
+
   font-size: 13px;
 }
 
@@ -159,13 +161,13 @@ h3{
   transition: 0.6s;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.fab{
+.fab {
   color: #a8dadc;
   font-size: 25px;
   margin: 10px;
@@ -173,7 +175,7 @@ h3{
   border-radius: 50%;
   transition: 0.6s;
 }
-.fab:hover{
+.fab:hover {
   color: #1d3557;
   background-color: #a8dadc;
   border-radius: 50%;
@@ -181,64 +183,62 @@ h3{
 }
 
 @media screen and (max-width: 800px) {
-  *{
+  * {
     padding: 0;
     margin: 0;
   }
-  .navbar-anchor{
+  .navbar-anchor {
     font-size: 13px;
   }
-  .navbar-links.active{
+  .navbar-links.active {
     width: 50%;
   }
-  .section{
+  .section {
     height: 90vh;
     width: 100%;
   }
-  h1{
+  h1 {
     font-size: 40px;
   }
-  .contactdetails{
+  .contactdetails {
     width: 90%;
   }
-  .contacticons{
+  .contacticons {
     font-size: 10px;
     margin: 10px;
-    
   }
-  .cnticn{
+  .cnticn {
     padding: 5px;
   }
 
-  .cntctme{
-    
+  .cntctme {
     width: 50%;
   }
-  .formstyle{
+  .formstyle {
     width: 55vw;
   }
-  .yourinfo{
+  .yourinfo {
     display: flex;
     flex-direction: column;
     font-size: 20px;
   }
-  .form-input{
+  .form-input {
     justify-content: center;
     width: 80%;
     font-size: 10px;
     padding: 5px;
     margin: 5px;
   }
-  .dsply{
+  .dsply {
     display: flex;
     flex-direction: row;
     width: 40%;
   }
-  #contact-form{
+  #contact-form {
     height: 50%;
     width: 100%;
   }
-  .txt{
+  .txt {
     font-size: 16px;
   }
 }

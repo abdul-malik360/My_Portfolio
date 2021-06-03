@@ -2,7 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
   /* border: solid;  */
+}
+.tooltip{
+  position: relative;
+}
+.tooltiptext{
+  visibility: hidden;
+  width: 150px;
+  color: #a8dadc;
+  
+  background-color: #1d3557;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 16px;
+
+
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
+  margin-right: 20px;
+  
+
+}
+.tooltip:hover .tooltiptext{
+  visibility: visible;
+  transition: 0.3s;
+
 }
 
 .navbar-links {
@@ -10,13 +39,13 @@
   flex-direction: column;
   list-style-type: none;
   background: #a8dadc;
-  border-radius: 20px;
+  border-radius: 5px;
   position: fixed;
   top: 30px;
   right: 30px;
   width: 40px;
   height: 40px;
-  overflow: hidden;
+  /* overflow: hidden;  */
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -26,9 +55,12 @@
   z-index: 100;
 }
 .navbar-links.active {
-  width: 5vw;
+  width: 40px;
   height: 25vh;
   z-index: 100;
+  top: 60px;
+  right: 30px;
+
 }
 
 .navbar-button {
@@ -68,7 +100,7 @@
   transition: 0.6s;
   padding: 5px;
   border-radius: 5px;
-  font-size: 20px;
+  
 }
 
 .section {
