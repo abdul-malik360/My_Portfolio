@@ -149,14 +149,28 @@ h1 {
     transition: 0.6s;
   } */
 
+<<<<<<< HEAD
   .navbar-anchor {
     font-size: 13px;
+=======
+
+
+ 
+  .navbar-anchor{
+    font-size: 16px;
+>>>>>>> 9d66abd01437529a9863a4059551f1b35acaa699
   }
   .navbar-links.active {
     width: 50%;
   }
 
+<<<<<<< HEAD
   .btn {
+=======
+ 
+  
+  .btn{
+>>>>>>> 9d66abd01437529a9863a4059551f1b35acaa699
     width: 50%;
   }
   .btn:hover {

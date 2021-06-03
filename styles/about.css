@@ -362,52 +362,93 @@ h6 {
   .navbar-links.active {
     width: 50%;
   }
+<<<<<<< HEAD
   .placeabout {
     width: 50vw;
   }
 
   /* #about {
-  }
-  .placeabout {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: fit-content;
-    margin: auto;
-  }
-  
-  .myinfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  } */
-  /* .aboutdetails {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 150vh;
-  }
-  h1 {
+=======
+  h1{
+    
     font-size: 40px;
-    color: #1d3557;
+    margin: 0;
+    padding: 0;
+    
   }
-  .placeabout {
-    width: 100vw;
+  h3{
+    font-size: 25px;
+>>>>>>> 9d66abd01437529a9863a4059551f1b35acaa699
   }
-  .aboutinfo {
-    font-size: smaller;
+  .mypic{
+    display: none;
   }
-  .mydetailsicons {
+  .aboutdetails{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+  } 
+  .placeabout{
+    width: 90%;
+    height: 150vh;
+    padding: 5px;
+    margin: 5px;
   }
-  .myinfo {
+ 
+  .myinfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    align-self: center;
-  } */
+    width: 50%;
+    height: 50%;
+  }
+
+  .bio{
+    
+    font-size: 16px;
+    
+  }
+  .mydetails{
+    font-size: 11px;
+  }
+  .inputdetails{
+    font-size: 10px;
+
+  }
+  .input{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    font-size: 13px;
+  }
+  h6{
+    font-size: 16px;
+  }
+  h5{
+    font-size: 15px;
+  }
+  .resume{
+    padding: 5px;
+    margin: 5px;
+  }
+  .skills{
+    padding: 5px;
+    margin: 5px;
+  }
+  .skillicon{
+    font-size: 13px;
+    padding: 2px;
+  }
+  .fab{
+    font-size: 80px;
+  }
+  .linebtn{
+    width: 100%;
+  }
+
+
+
+  
+  
 }
