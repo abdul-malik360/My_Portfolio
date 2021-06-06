@@ -152,7 +152,6 @@ h3 {
   justify-content: center;
 
   padding: 20px;
-  margin: 20px;
 
   border-radius: 10px;
   height: 100%;
@@ -237,7 +236,7 @@ h3 {
   background-color: #457b9d;
   color: #a8dadc;
   
-  padding: 10px;
+  padding: 30px;
   
   border-radius: 10px;
   font-size: 1.250em;
@@ -246,29 +245,40 @@ h3 {
   
   
 }
-.input:hover {
-  
-  border-color: #a8dadc;
-  transition: 0.6s;
-}
+
 h6 {
   font-size: 16px;
   color: #a8dadc;
   background-color:  #1d3557;
   border-radius: 10px;
   padding: 10px;
-  font-weight: 700;
+  margin-bottom: 20px;
+  width: 50%;
+  text-align: center;
+  
 }
 h5{
   display: flex;
   flex-direction: column-reverse;
   font-size: 16px;
   font-weight: 100;
+  color: #1d3557;
+  text-shadow: 0px 0px 3px #a8dadc;
+  
 
   
 }
 .title{
   font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #a8dadc;
+  text-shadow: 0px 0px 3px #1d3557;
+}
+.descrp{
+  padding: 20px;
+  font-style: italic;
+  color: #f1faee;
 }
 .datentitle{
   display: flex;
