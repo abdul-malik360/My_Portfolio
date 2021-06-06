@@ -23,8 +23,7 @@ h1 {
   font-size: 80px;
   color: #1d3557;
   margin-bottom: 2%;
-  display: flex;
-  justify-content: center;
+  
 }
 .headcolor {
   color: #a8dadc;
@@ -46,6 +45,13 @@ h1 {
   font-size: x-large;
   padding: 20px;
   margin-top: 5%;
+}
+.placetest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .text {

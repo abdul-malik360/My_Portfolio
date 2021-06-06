@@ -20,10 +20,10 @@ typing();
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["an Aspiring Full Stack Developer", "Based in Cape Town, South Africa", "Excited to meet YOU!"];
-const typingDelay = 120;
-const erasingDelay = 50; 
-const newTextDelay = 1000; 
+const textArray = ["an Aspiring Full Stack Developer.", "Based in Cape Town, South Africa.", "Excited to meet YOU!"];
+const typingDelay = 100;
+const erasingDelay = 20; 
+const newTextDelay = 900; 
 let textArrayIndex = 0;
 let charIndex = 0;  
 

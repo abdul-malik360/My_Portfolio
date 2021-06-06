@@ -6,7 +6,7 @@
 }
 
 .fullpage {
-  background-image: url(/images/cliff.jpg), linear-gradient(#e4ecec, #6e7074);
+  background-image: url(/images/cliff.jpg), radial-gradient(#a8dadc, #1d3557);
   background-size: cover;
   background-blend-mode: soft-light;
   width: 100%;
@@ -39,7 +39,7 @@ h1 {
   color: #a8dadc;
   font-weight: 700;
   font-size: 20px;
-  text-shadow: 3px 3px 3px #1d3557;
+  text-shadow: 0px 0px 3px #1d3557;
   
 }
 .homestatement {
