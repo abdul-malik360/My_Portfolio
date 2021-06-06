@@ -120,10 +120,12 @@ h3 {
   font-size: 16px;
   color: #a8dadc;
   width: 40%;
+  margin: 10px;
 }
 
 .msg {
   width: 95%;
+  height: 100%;
   
 }
 
@@ -181,13 +183,14 @@ h3 {
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
   height: 100%;
   width: 100%;
   text-align: center;
   padding: 5px;
+  
   
 }
 .footertxt{
