@@ -17,6 +17,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 5px;
   margin: 50px;
+  height: 100%;
 }
 
 h1 {
@@ -171,6 +172,71 @@ p {
 .btn2:hover {
   box-shadow: 0 8px 32px 0 #1d3557;
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  
+}
+.footertxt{
+  color: #1d3557;
+  font-family: sans-serif;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 5%;
+}
+
+.fbtns{
+  
+  font-size: 20px;
+  text-decoration: none ;
+  color: #1d3557;
+  
+} 
+.fbtns:hover{
+  color: #a8dadc;
+}
+.footerbtn {
+  color: #1d3557;
+  border: 2px solid #1d3557;
+  background: none;
+
+  border-radius: 50px;
+  width: 10vw;
+  transition: 0.6s;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.footerbtn:hover {
+  background: none;
+  border: 2px solid #a8dadc;
+  border-radius: 50px;
+  width: 10vw;
+  transition: 0.6s;
+}
+
+.footerbtntxt {
+  text-decoration: none;
+  color: #1d3557;
+  transition: 0.6s;
+}
+.footerbtntxt:hover {
+  text-decoration: none;
+  color: #a8dadc;
+  transition: 0.6s;
+}
+
 
 @media screen and (max-width: 800px) {
   h1 {

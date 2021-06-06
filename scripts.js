@@ -54,7 +54,7 @@ function erase(){
     setTimeout(type, typingDelay + 1100);
   }
 }
-
-document.addEventListener("DOMContentLoaded", function() {
- if(textArray.length) setTimeout(type, newTextDelay + 250);
+window.addEventListener('load', function() {
+  
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
