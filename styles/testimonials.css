@@ -77,15 +77,18 @@ h1 {
 .name {
   color: #1d3557;
   text-shadow: 3px 3px 3px #a8dadc;
+  font-size: 20px;
 }
 
 .title {
   color: #a8dadc;
+  font-size: 20px;
 }
 
 .message {
   font-style: italic;
   color: #f1faee;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 800px) {
