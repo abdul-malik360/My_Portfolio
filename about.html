@@ -122,9 +122,9 @@
           <div class="resume">
             <h3>My Resume</h3>
             <div class="resbtn">
-              <button class="linebtn" onclick="changeExperience('edu')">Education</button>
-              <button class="linebtn" onclick="changeExperience('work')">Work</button>
-              <button class="linebtn" onclick="changeExperience('dev')">Developement</button>
+              <button class="linebtn ed" onclick="changeExperience('edu')">Education</button>
+              <button class="linebtn wrk" onclick="changeExperience('work')">Work</button>
+              <button class="linebtn devl" onclick="changeExperience('dev')">Developement</button>
             </div>
               
             <div id="edu" class="about-content active education">
@@ -308,14 +308,15 @@
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
           items: 1,
-          margin: 50,
+          margin: 10,
           loop: true,
           stagePadding: 100,
           dots: false,
-          autoplay: false,
+          autoplay: true,
         });
       });
     </script>
+    <script src="scripts.js"></script>
     
 </body>
 </html>
