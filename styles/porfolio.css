@@ -181,6 +181,9 @@ p {
   text-align: center;
   padding: 20px;
   
+  bottom: 0px;
+  left: 0px;
+  
 }
 .footertxt{
   color: #1d3557;
