@@ -196,7 +196,10 @@ h3 {
   height: 100%;
   width: 100%;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
+  
+  bottom: 0px;
+  left: 0px;
   
   
 }
