@@ -193,7 +193,7 @@ h3 {
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  height: 100%;
+  
   width: 100%;
   text-align: center;
   padding: 10px;
@@ -201,7 +201,7 @@ h3 {
   bottom: 0px;
   left: 0px;
   
-  
+  position: absolute;
 }
 .footertxt{
   color: #1d3557;
