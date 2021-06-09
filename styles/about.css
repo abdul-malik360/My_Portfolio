@@ -340,11 +340,15 @@ h5{
   transition: 0.6s;
 }
 .fa-css3-alt:hover {
-  color: #2965f1;
+  color:  #2965f1 ;
+  transition: 0.6s;
+}
+.fa-js-square:hover{
+  color:  #f0db4f ;
   transition: 0.6s;
 }
 .fa-python:hover {
-  color: #ffe873;
+  color: #4B8BBE;
   transition: 0.6s;
 }
 .fa-instagram:hover {
