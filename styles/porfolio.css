@@ -52,20 +52,18 @@ h1 {
   margin: 20px;
 }
 
-/* .clickpic:hover {
+.clickpic:hover {
   cursor: pointer;
-  opacity: 0.4; 
-
   -webkit-filter: brightness(50%);
 }
-.tooltippic {
+/* .tooltippic {
   position: relative;
   position: relative;
   width: 200px;
   height: 200px;
   float: left;
   margin-right: 10px;
-}  */
+}   */
 
 .modal {
   display: none;
@@ -269,21 +267,10 @@ p {
   right: 0;
   background: black;
   color: white;
-  margin-bottom: 5px;
-  font-family: sans-serif;
-  opacity: 0;
   visibility: hidden;
-  -webkit-transition: visibility 0s, opacity 0.5s linear;
-  transition: visibility 0s, opacity 0.5s linear;
+  
 }
-
-/* Hover on Parent Container */
-.content_img:hover {
-  cursor: pointer;
-}
-
 .content_img:hover div {
-  width: 150px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.7;

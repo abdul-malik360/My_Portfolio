@@ -365,11 +365,11 @@ h5{
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  height: 100%;
+  
   width: 100%;
   text-align: center;
   padding: 20px;
-  
+  position: absolute;
 }
 .footertxt{
   color: #1d3557;
