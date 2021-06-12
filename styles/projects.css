@@ -44,9 +44,14 @@ h1 {
   margin: 0 0 20px;
   padding: 10px;
   overflow: hidden;
+  transition: ease-in 0.3s;
+  transform: scale(1);
+  overflow: hidden;
+  
 }
 .clickpic{
   max-width: 100%;
+  
   
 }
 
@@ -74,6 +79,10 @@ h1 {
 /* Hover on Parent Container */
 .content_img:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in 0.3s;
+  
+  overflow: hidden;
 }
 
 .content_img:hover div {
@@ -198,3 +207,58 @@ h1 {
 .modalbtn:hover {
   transform: rotate(360deg);
 }
+
+h2 {
+  color: #1d3557;
+  text-shadow: 3px 3px 3px #a8dadc;
+}
+h3 {
+  color: #1d3557;
+  text-shadow: 3px 3px 3px #a8dadc;
+}
+p {
+  color: #1d3557;
+  text-shadow: 3px 3px 3px white;
+}
+
+.btn1 {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  padding: 10px 20px;
+  width: 45%;
+  margin-right: 1%;
+  color: black;
+  text-decoration: none;
+}
+.btn1:hover {
+  box-shadow: 0 8px 32px 0 #1d3557;
+}
+
+.btn2 {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  padding: 10px 20px;
+  width: 45%;
+  margin-right: 1%;
+}
+.btn2:hover {
+  box-shadow: 0 8px 32px 0 #1d3557;
+}
+
+.btns {
+  display: flex;
+  color: #1d3557;
+  text-decoration: none;
+}
+
+
