@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>What they've got to say</title>
+    <title>My Projects</title>
+    <link rel="icon" href="/images/portfolio image.PNG" type="image/icon type">
     <link rel="stylesheet" href="/styles/projects.css" />
     <link rel="stylesheet" href="/styles/navbar.css" />
 
@@ -131,8 +132,38 @@
             <div><i class="far fa-eye"></i></div>
           </div>
 
-          <!-- Contact Form Modal -->
+          <div class="content_img" onclick="toggleModal('BMI-Calculator-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/Click BMI Converter.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <div class="content_img" onclick="toggleModal('sick-class-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/Click Sick Class.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <div class="content_img" onclick="toggleModal('Error-Handling-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/Click Login.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
         </div>
+        <!-- Contact Form Modal -->
         <div id="contact-form-modal" class="modal">
           <button onclick="toggleModal('contact-form-modal')"><span class="modalbtn">X</span></button>
           <img src="/images/my contact form.PNG" alt="PICTURE OF MY CONTACT FORM">
@@ -330,6 +361,93 @@
             </div>
           </div>
         </div>
+
+        <!-- BMI Calculator Modal -->
+        <div id="BMI-Calculator-modal" class="modal">
+          <button onclick="toggleModal('BMI-Calculator-modal')"><span class="modalbtn">X</span></button>
+          <img src="/images/my bmi calculator.PNG" alt="PICTURE OF MY BMI CALCULATOR">
+          <div class="modalcontent">
+            <h2>BMI Calculator</h2>
+            <h3>PYTHON</h3>
+            <p>A BMI Calculator</p>
+            <div class="btns">
+              <button class="btn1">
+                <a
+                  href="https://replit.com/@abdulmalik360/BMICalculator#BMI_Calculator.py"
+                  target="_blank"
+                  class="btns"
+                  >Live</a
+                >
+              </button>
+              <button class="btn2">
+                <a
+                  href="https://github.com/abdul-malik360/BMI_Calculator/blob/main/BMI_Calculator.py"
+                  target="_blank"
+                  class="btns"
+                  >Github</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+      <!-- Sick Class Modal -->
+      <div id="sick-class-modal" class="modal">
+      <button onclick="toggleModal('sick-class-modal')"><span class="modalbtn">X</span></button>
+      <img src="/images/my sick class.PNG" alt="PICTURE OF MY SICK CLASS">
+      <div class="modalcontent">
+        <h2>Sick Class</h2>
+        <h3>Python</h3>
+        <p>A patient app</p>
+        <div class="btns">
+          <button class="btn1">
+            <a
+              href="https://replit.com/@abdulmalik360/Creatingaclass#oop_task.py"
+              target="_blank"
+              class="btns"
+              >Live</a
+            >
+          </button>
+          <button class="btn2">
+            <a
+              href="https://github.com/abdul-malik360/Creating_a_class/blob/main/oop_task.py"
+              target="_blank"
+              class="btns"
+              >Github</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+          <!-- Error Handling Modal -->
+        <div id="Error-Handling-modal" class="modal">
+          <button onclick="toggleModal('Error-Handling-modal')"><span class="modalbtn">X</span></button>
+          <img src="/images/my error handling.PNG" alt="PICTURE OF MY Error Handling">
+          <div class="modalcontent">
+            <h2>Error Handling</h2>
+            <h3>PYTHON</h3>
+            <p>Savings Program</p>
+            <div class="btns">
+              <button class="btn1">
+                <a
+                  href="https://replit.com/@abdulmalik360/ErrorHandling#task.py"
+                  target="_blank"
+                  class="btns"
+                  >Live</a
+                >
+              </button>
+              <button class="btn2">
+                <a
+                  href="https://github.com/abdul-malik360/Error_Handling/blob/main/task.py"
+                  target="_blank"
+                  class="btns"
+                  >Github</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
         
       </div>
     </div>
