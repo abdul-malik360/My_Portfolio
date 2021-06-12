@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What they've got to say</title>
+    <link rel="stylesheet" href="/styles/projects.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+
+    <script
+      src="https://kit.fontawesome.com/ab6051d3ab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link">
+          <a href="./index.html" class="navbar-anchor"
+            ><i class="fas fa-home tooltip"
+              ><span class="tooltiptext">HOME</span></i
+            >
+          </a>
+        </li>
+        <li class="navbar-link">
+          <a href="./about.html" class="navbar-anchor"
+            ><i class="fas fa-address-card tooltip"
+              ><span class="tooltiptext">ABOUT</span></i
+            >
+          </a>
+        </li>
+        <li class="navbar-link">
+          <a href="./projects.html" class="navbar-anchor"
+            ><i class="fas fa-briefcase tooltip"
+              ><span class="tooltiptext">PORFOLIO</span></i
+            >
+          </a>
+        </li>
+        <li class="navbar-link">
+          <a href="./testimonials.html" class="navbar-anchor"
+            ><i class="fas fa-quote-left tooltip"
+              ><span class="tooltiptext">TESTIMONIALS</span></i
+            >
+          </a>
+        </li>
+        <li class="navbar-link">
+          <a href="./contact.html" class="navbar-anchor"
+            ><i class="fas fa-envelope tooltip"
+              ><span class="tooltiptext">CONTACT ME</span></i
+            >
+          </a>
+        </li>
+      </ul>
+      <button class="navbar-button" onclick="toggleNavbar()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <div id="portfolio">
+      <div class="projdetails">
+        <h1>My <span class="headcolor"> Projects </span></h1>
+        <div class="card">
+          <div class="content_img" onclick="toggleModal('timeline-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/click timeline.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <div class="content_img" onclick="toggleModal('testimonial-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/click testimonials.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <div class="content_img" onclick="toggleModal('projects-card-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/click project card.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <div class="content_img" onclick="toggleModal('sneaker-site-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/click sneaker site.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <div class="content_img" onclick="toggleModal('add-numbers-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/click adding numbers.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <div class="content_img" onclick="toggleModal('temperature-converter-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/click temperature converter.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <div class="content_img" onclick="toggleModal('contact-form-modal')">
+            <img
+              class="clickpic"
+              
+              src="/images/click contact form.PNG"
+              alt=""
+            />
+            <div><i class="far fa-eye"></i></div>
+          </div>
+
+          <!-- Contact Form Modal -->
+        </div>
+        <div id="contact-form-modal" class="modal">
+          <button onclick="toggleModal('contact-form-modal')"><span class="modalbtn">X</span></button>
+          <img src="/images/my contact form.PNG" alt="PICTURE OF MY CONTACT FORM">
+        </div>
+
+        <!-- Add Numbers Modal -->
+        <div id="add-numbers-modal" class="modal">
+          <button onclick="toggleModal('add-numbers-modal')"><span class="modalbtn">X</span></button>
+          <img src="/images/my adding numbers.PNG" alt="PICTURE OF Addition Calculator">
+        </div>
+        <!-- Timeline Modal -->
+        <div id="timeline-modal" class="modal">
+          <button onclick="toggleModal('timeline-modal')"><span class="modalbtn">X</span></button>
+          <img src="./images/my timeline.PNG"
+          alt="PICTURE OF MY TIMELINE">
+        </div>
+         <!-- Testimonials Modal -->
+        <div  id="testimonial-modal" class="modal">
+          <button onclick="toggleModal('testimonial-modal')"><span class="modalbtn">X</span></button>
+          <img src="/images/my testimonials.PNG" alt="PICTURE OF MY TESTIMONIALS">
+        </div>
+        <!-- Projects Card Modal -->
+        <div id="projects-card-modal" class="modal">
+          <button onclick="toggleModal('projects-card-modal')"><span class="modalbtn">X</span></button>
+          <img src="/images/my projects card.PNG" alt="PICTURE OF MY PROJECTS CARD">
+        </div>
+        <!-- Temperature Converter Modal -->
+        <div id="temperature-converter-modal" class="modal">
+          <button onclick="toggleModal('temperature-converter-modal')"><span class="modalbtn">X</span></button>
+          <img src="/images/my temperature converter.PNG" alt="PICTURE OF TEMPERATURE CONVERTER">
+        </div>
+        <!-- Sneaker Site -->
+        <div id="sneaker-site-modal" class="modal">
+          <button onclick="toggleModal('sneaker-site-modal')"><span class="modalbtn">X</span></button>
+          <img src="/images/my sneaker site.PNG" alt="PICTURE OF SNEAKER SITE">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="contactme">
+        <button class="footerbtn">
+          <a href="/contact.html" target="_blank" class="footerbtntxt"
+            >Let's Work Together</a
+          >
+        </button>
+      </div>
+
+      <div class="footertxt">
+        <i class="far fa-copyright"></i> Made with
+        <i class="far fa-heart"></i> by Abdul-Malik Mohamed
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/abdul-malik360" target="_blank"
+          ><i class="fab fa-github fbtns"></i
+        ></a>
+        <a href="https://codepen.io/abdul-malik360" target="_blank"
+          ><i class="fab fa-codepen fbtns"></i
+        ></a>
+      </div>
+    </div> 
+    <script>
+      function toggleModal(modalID) {
+        document.getElementById(modalID).classList.toggle("active");
+      }
+    </script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
