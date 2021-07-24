@@ -33,7 +33,7 @@ h1 {
   columns: 4;
   column-gap: 10px;
   width: 100%;
-  
+
   padding: 20px;
 }
 
@@ -47,18 +47,13 @@ h1 {
   transition: ease-in 0.3s;
   transform: scale(1);
   overflow: hidden;
-  
 }
-.clickpic{
+.clickpic {
   max-width: 100%;
-  
-  
 }
-
 
 /* Child Text Container */
 .content_img div {
-  
   position: absolute;
   top: 0;
   left: 0;
@@ -66,14 +61,13 @@ h1 {
   right: 0;
   padding: 120px;
   text-align: center;
-  
+
   color: white;
-  
-  background: radial-gradient(#a8dadc 5%,  #1d3557 30%);
+
+  background: radial-gradient(#a8dadc 5%, #1d3557 30%);
   width: 100%;
-  height: 100%;  
+  height: 100%;
   visibility: hidden;
-  
 }
 
 /* Hover on Parent Container */
@@ -81,12 +75,11 @@ h1 {
   cursor: pointer;
   transform: scale(1.1);
   transition: ease-in 0.3s;
-  
+
   overflow: hidden;
 }
 
 .content_img:hover div {
-  
   visibility: visible;
   opacity: 0.7;
 }
@@ -101,7 +94,6 @@ h1 {
   text-align: center;
   padding: 20px;
 
-  
   bottom: 0px;
   left: 0px;
 }
@@ -156,7 +148,6 @@ h1 {
   transition: 0.6s;
 }
 
-
 .modal {
   display: none;
   height: 50%;
@@ -208,14 +199,12 @@ h1 {
   transform: rotate(360deg);
 }
 
-.modalcontent{
+.modalcontent {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  
-  background: #457b9d;
-  
 
+  background: #457b9d;
 }
 
 h2 {
@@ -283,5 +272,3 @@ p {
   text-decoration: none;
   padding: 5px;
 }
-
-
