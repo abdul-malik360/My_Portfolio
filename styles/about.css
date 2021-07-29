@@ -365,7 +365,7 @@ h5{
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  
+  rgba(255, 255, 255, 0.295)
   width: 100%;
   text-align: center;
   padding: 20px;
@@ -427,87 +427,7 @@ h5{
 
 
 @media screen and (max-width: 800px) {
-  .navbar-anchor {
-    font-size: 13px;
-  }
-  .navbar-links.active {
-    width: 50%;
-  }
-  .placeabout {
-    width: 50vw;
-  }
-
-  /* #about {
-  }
-  .mypic{
-    display: none;
-  }
-  .aboutdetails{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-  } 
-  .placeabout{
-    width: 90%;
-    height: 150vh;
-    padding: 5px;
-    margin: 5px;
-  }
- 
-  .myinfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 50%;
-  }
-
-  .bio{
-    
-    font-size: 16px;
-    
-  }
-  .mydetails{
-    font-size: 11px;
-  }
-  .inputdetails{
-    font-size: 10px;
-
-  }
-  .input{
-    padding: 5px;
-    margin: 5px;
-    width: 100%;
-    font-size: 13px;
-  }
-  h6{
-    font-size: 16px;
-  }
-  h5{
-    font-size: 15px;
-  }
-  .resume{
-    padding: 5px;
-    margin: 5px;
-  }
-  .skills{
-    padding: 5px;
-    margin: 5px;
-  }
-  .skillicon{
-    font-size: 13px;
-    padding: 2px;
-  }
-  .fab{
-    font-size: 80px;
-  }
-  .linebtn{
-    width: 100%;
-  }
-
-
-
   
-  
+
+    
 }

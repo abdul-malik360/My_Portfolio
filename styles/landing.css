@@ -13,7 +13,6 @@
   height: 100%;
   left: 0;
   top: 0;
-  
 }
 
 .homedetails {
@@ -40,26 +39,22 @@ h1 {
   font-weight: 700;
   font-size: 20px;
   text-shadow: 0px 0px 3px #1d3557;
-  
 }
 .homestatement {
   color: #1d3557;
   font-size: 20px;
   font-weight: 700;
   text-shadow: 3px 3px 3px #a8dadc;
-  
 }
 
-
-.cursor{
+.cursor {
   display: inline-block;
   width: 3px;
   background-color: #1d3557;
   animation: blink 1s infinite;
 }
-.typing{
+.typing {
   animation: none;
-
 }
 
 .btn {
@@ -174,42 +169,43 @@ h1 {
   transition: 0.6s;
 }
 @keyframes blink {
-  0% { background-color: #1d3557;}
-  49% { background-color: #1d3557;}
-  50% { background-color: transparent;}
-  99% { background-color: transparent;}
-  100% {background-color: #1d3557;}
+  0% {
+    background-color: #1d3557;
+  }
+  49% {
+    background-color: #1d3557;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #1d3557;
+  }
 }
 
 @media screen and (max-width: 800px) {
- 
+  .homedetails {
+    justify-content: space-around;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 70px;
+    margin-left: 10%;
+  }
 
-  .navbar-anchor {
+  .btntxt {
+    margin-bottom: 65%;
+    width: 30%;
+  }
+
+  .footer {
+    height: 50px;
+    padding: 5px;
+  }
+  .footertxt {
     font-size: 16px;
   }
-  .navbar-links.active {
-    width: 50%;
-  }
-
-  h1 {
-    text-shadow: 3px 3px 3px #a8dadc;
-  }
-
-  .btn {
-    width: 50%;
-  }
-  .btn:hover {
-    width: 50%;
-  }
-
-  .footerbtn {
-    width: 100%;
-  }
-  .footerbtntxt {
-    font-size: 13px;
-  }
-  .links {
-    width: 50%;
-  }
 }
-
