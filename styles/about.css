@@ -15,7 +15,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 
   background: white;
 
@@ -23,14 +22,13 @@ body {
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  
+
   padding: 5px;
   margin: 50px;
-  
 }
 
 h1 {
-  font-size: 5.000em;
+  font-size: 5em;
   color: #1d3557;
   margin-bottom: 2%;
 }
@@ -43,7 +41,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .myinfo {
   display: flex;
@@ -60,9 +57,7 @@ h1 {
   border-radius: 10%;
   height: 60vh;
   width: 60vh;
- 
 }
-
 
 .aboutinfo {
   padding: 20px;
@@ -70,7 +65,7 @@ h1 {
 
 .bio {
   color: #1d3557;
-  font-size: 1.250em;
+  font-size: 1.25em;
   padding: 20px;
   width: 80%;
 }
@@ -86,7 +81,6 @@ h1 {
 }
 .di1 {
   width: 50%;
-  
 }
 .di2 {
   width: 50%;
@@ -95,12 +89,12 @@ h1 {
   color: #1d3557;
   padding: 5px 10px;
   margin: 2%;
-  font-size: 1.250em;
+  font-size: 1.25em;
 }
 
 .abouticons {
   color: #a8dadc;
-  font-size: 1.250em;
+  font-size: 1.25em;
 }
 
 .btn {
@@ -118,8 +112,6 @@ h1 {
   color: #1d3557;
   border-color: #1d3557;
   transition: 0.6s;
-  
- 
 }
 .resume {
   background: white;
@@ -168,54 +160,48 @@ h3 {
   color: #1d3557;
   background-color: white;
 }
-.ed{
-  border-right: 2px solid #1C6EA4;
+.ed {
+  border-right: 2px solid #1c6ea4;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   border-left: 2px solid white;
 }
-.wrk{
-  
-  border: white ;
+.wrk {
+  border: white;
 }
-.devl{
-  border-left: 2px solid #1C6EA4;
+.devl {
+  border-left: 2px solid #1c6ea4;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   border-right: 2px solid white;
 }
 
-.tooltipres{
+.tooltipres {
   position: relative;
 }
-.tooltiptextres{
+.tooltiptextres {
   visibility: hidden;
   width: 150px;
   color: #a8dadc;
-  
+
   background-color: #1d3557;
   text-align: center;
   border-radius: 6px;
   padding: 5px;
   font-size: 16px;
 
-
   position: absolute;
   z-index: 1;
   top: -5px;
   left: 105%;
   margin-left: -80px;
-  
-
 }
-.tooltipres:hover .tooltiptextres{
+.tooltipres:hover .tooltiptextres {
   visibility: visible;
   transition: 0.3s;
-
 }
 
 .linebtn:hover {
-  
   color: #a8dadc;
   cursor: pointer;
   transition: 0.6s;
@@ -225,62 +211,53 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 1.250em;
+  font-size: 1.25em;
   position: sticky;
-  
 }
 
 .input {
-  
-
   background-color: #457b9d;
   color: #a8dadc;
-  
+
   padding: 30px;
-  
+
   border-radius: 10px;
-  font-size: 1.250em;
+  font-size: 1.25em;
   transition: 0.6s;
   height: 50vh;
-  
-  
 }
 
 h6 {
   font-size: 16px;
   color: #a8dadc;
-  background-color:  #1d3557;
+  background-color: #1d3557;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
   width: 50%;
   text-align: center;
-  
 }
-h5{
+h5 {
   display: flex;
   flex-direction: column-reverse;
   font-size: 16px;
   font-weight: 100;
   color: #1d3557;
   text-shadow: 0px 0px 3px #a8dadc;
-  
-
-  
 }
-.title{
+.title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #a8dadc;
   text-shadow: 0px 0px 3px #1d3557;
 }
-.descrp{
+.descrp {
   padding: 20px;
   font-style: italic;
   color: #f1faee;
 }
-.datentitle{
+.datentitle {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -299,8 +276,7 @@ h5{
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  
- 
+
   padding: 5px;
   margin: 50px;
 }
@@ -319,7 +295,7 @@ h5{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1.250em;
+  font-size: 1.25em;
   padding: 30px;
   color: #1d3557;
 }
@@ -329,7 +305,7 @@ h5{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 6.250em;
+  font-size: 6.25em;
   transition: 0.6s;
   color: #a8dadc;
   text-decoration: none;
@@ -340,15 +316,15 @@ h5{
   transition: 0.6s;
 }
 .fa-css3-alt:hover {
-  color:  #2965f1 ;
+  color: #2965f1;
   transition: 0.6s;
 }
-.fa-js-square:hover{
-  color:  #f0db4f ;
+.fa-js-square:hover {
+  color: #f0db4f;
   transition: 0.6s;
 }
 .fa-python:hover {
-  color: #4B8BBE;
+  color: #4b8bbe;
   transition: 0.6s;
 }
 .fa-instagram:hover {
@@ -365,17 +341,17 @@ h5{
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  rgba(255, 255, 255, 0.295)
+
   width: 100%;
   text-align: center;
   padding: 20px;
   position: absolute;
 }
-.footertxt{
+.footertxt {
   color: #1d3557;
   font-family: sans-serif;
 }
-.links{
+.links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -383,14 +359,12 @@ h5{
   width: 5%;
 }
 
-.fbtns{
-  
+.fbtns {
   font-size: 20px;
-  text-decoration: none ;
+  text-decoration: none;
   color: #1d3557;
-  
-} 
-.fbtns:hover{
+}
+.fbtns:hover {
   color: #a8dadc;
 }
 .footerbtn {
@@ -424,10 +398,5 @@ h5{
   transition: 0.6s;
 }
 
-
-
 @media screen and (max-width: 800px) {
-  
-
-    
 }
