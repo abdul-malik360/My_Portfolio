@@ -194,11 +194,13 @@ h1 {
 
   outline: none;
 
-  transition: 0.6s;
+  transition: 0.3s;
+
+  cursor: pointer;
 }
 
 .modalbtn:hover {
-  transform: rotate(360deg);
+  background-color: red;
 }
 
 .modalcontent {
