@@ -1,7 +1,7 @@
 // typing name
 var i = 0,
   myname;
-myname = "Abdul-Malik.";
+myname = "Abdul-Malik Mohamed.";
 
 function typing() {
   if (i < myname.length) {
