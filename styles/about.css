@@ -130,6 +130,11 @@ h3 {
   color: #1d3557;
   padding-left: 5%;
 }
+h4 {
+  align-self: flex-start;
+  font-size: 3em;
+  color: #a8dadc;
+}
 .about-content {
   display: none;
 }
@@ -225,6 +230,7 @@ h3 {
   font-size: 1.25em;
   transition: 0.6s;
   height: 50vh;
+  cursor: grab;
 }
 
 h6 {
@@ -290,6 +296,15 @@ h5 {
   padding-top: 2%;
   flex-wrap: wrap;
 }
+.softskills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  padding-top: 2%;
+  flex-wrap: wrap;
+}
 
 .skillicon {
   display: flex;
@@ -301,7 +316,7 @@ h5 {
   color: #1d3557;
 }
 
-.fab {
+.icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
