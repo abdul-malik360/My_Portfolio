@@ -18,7 +18,7 @@ const cursorSpan = document.querySelector(".cursor");
 
 const textArray = [
   "an Aspiring Full Stack Developer.",
-  "Based in Cape Town, South Africa.",
+  "based in Mitchell's Plain, Cape Town.",
   "Excited to meet YOU!",
 ];
 const typingDelay = 100;
